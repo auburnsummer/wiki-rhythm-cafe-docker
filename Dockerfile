@@ -1,0 +1,1 @@
+FROM mediawiki:1.43.11
