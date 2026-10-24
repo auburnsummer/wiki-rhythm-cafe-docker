@@ -205,3 +205,11 @@ $wgScribuntoDefaultEngine = 'luasandbox';
 # END SCRIBUNTO
 
 wfLoadExtension( 'TabberNeue' );
+
+# BEGIN PERMISSIONS
+$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['*']['createpage'] = false;
+$wgGroupPermissions['*']['writeapi'] = false;
+$wgGroupPermissions['user']['edit'] = true;
+$wgGroupPermissions['user']['createpage'] = true;
+# END PERMISSIONS
