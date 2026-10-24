@@ -203,3 +203,5 @@ wfLoadExtension( 'SyntaxHighlight_GeSHi' );
 wfLoadExtension( 'CodeMirror' );
 $wgScribuntoDefaultEngine = 'luasandbox';
 # END SCRIBUNTO
+
+wfLoadExtension( 'TabberNeue' );
