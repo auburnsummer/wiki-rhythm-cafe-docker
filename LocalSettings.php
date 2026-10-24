@@ -233,3 +233,5 @@ $wgGroupPermissions['*']['writeapi'] = false;
 $wgGroupPermissions['user']['edit'] = true;
 $wgGroupPermissions['user']['createpage'] = true;
 # END PERMISSIONS
+
+$wgDebugLogFile = requireEnv("MW_DEBUG_LOG_FILE");
