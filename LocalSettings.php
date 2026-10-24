@@ -27,7 +27,7 @@ function requireEnv( string $name ): string {
 # $wgDisableOutputCompression = true;
 
 $wgSitename = "Rhythm Doctor Wiki";
-$wgMetaNamespace = "Rhythm_Doctor_Wiki";
+$wgMetaNamespace = "RDWiki";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -37,7 +37,6 @@ $wgMetaNamespace = "Rhythm_Doctor_Wiki";
 $wgScriptPath = "";
 $wgScriptExtension = ".php";
 $wgArticlePath = "/page/$1";
-
 
 ## The protocol and server name to use in fully-qualified URLs
 $wgServer = requireEnv("MW_SERVER");
