@@ -14,3 +14,7 @@ RUN git clone --depth 1 --branch v4.1.0 \
 RUN git clone --depth 1 --branch REL1_43 \
       https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles \
       /var/www/html/extensions/TemplateStyles
+
+RUN git clone --depth 1 --branch REL1_43 \
+      https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend \
+      /var/www/html/extensions/MobileFrontend
