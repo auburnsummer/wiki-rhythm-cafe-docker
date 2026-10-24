@@ -126,7 +126,7 @@ $wgMemCachedServers = [];
 
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
-$wgEnableUploads = false;
+$wgEnableUploads = true;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = "/usr/bin/convert";
 
@@ -184,3 +184,22 @@ wfLoadSkin( 'Vector' );
 # End of automatically generated settings.
 # Add more configuration options below.
 wfLoadExtension( 'OATHAuth' );
+
+# START CONFIRMEDIT
+wfLoadExtensions([ 'ConfirmEdit', 'ConfirmEdit/Turnstile' ]);
+$wgCaptchaClass = MediaWiki\Extension\ConfirmEdit\Turnstile\Turnstile::class;
+
+$wgTurnstileSiteKey = requireEnv("MW_TURNSTILE_SITE_KEY");
+$wgTurnstileSecretKey = requireEnv("MW_TURNSTILE_SECRET_KEY");
+# END CONFIRMEDIT
+
+$wgDisableQueryPages = true;
+$wgMiserMode = true;
+
+# START SCRIBUNTO
+wfLoadExtension( 'Scribunto' );
+wfLoadExtension( 'WikiEditor' );
+wfLoadExtension( 'SyntaxHighlight_GeSHi' );
+wfLoadExtension( 'CodeMirror' );
+$wgScribuntoDefaultEngine = 'luasandbox';
+# END SCRIBUNTO
