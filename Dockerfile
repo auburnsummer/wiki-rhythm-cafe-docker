@@ -10,3 +10,7 @@ RUN git clone --depth 1 --branch REL1_43 \
 RUN git clone --depth 1 --branch v4.1.0 \
       https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue.git \
       /var/www/html/extensions/TabberNeue
+
+RUN git clone --depth 1 --branch REL1_43 \
+      https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles \
+      /var/www/html/extensions/TemplateStyles
