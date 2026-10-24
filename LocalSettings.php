@@ -196,7 +196,6 @@ wfLoadExtension( 'OATHAuth' );
 wfLoadExtension( 'PageImages' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'Poem' );
-wfLoadExtension( 'Renameuser' );
 wfLoadExtension( 'ReplaceText' );
 wfLoadExtension( 'TemplateData' );
 wfLoadExtension( 'TemplateStyles' );
