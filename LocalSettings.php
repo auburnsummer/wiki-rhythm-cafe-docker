@@ -184,6 +184,27 @@ wfLoadSkin( 'Vector' );
 # Add more configuration options below.
 wfLoadExtension( 'OATHAuth' );
 
+wfLoadExtension( 'CategoryTree' );
+wfLoadExtension( 'Cite' );
+wfLoadExtension( 'Gadgets' );
+wfLoadExtension( 'ImageMap' );
+wfLoadExtension( 'InputBox' );
+wfLoadExtension( 'Interwiki' );
+wfLoadExtension( 'MultimediaViewer' );
+wfLoadExtension( 'Nuke' );
+wfLoadExtension( 'OATHAuth' );
+wfLoadExtension( 'PageImages' );
+wfLoadExtension( 'ParserFunctions' );
+wfLoadExtension( 'Poem' );
+wfLoadExtension( 'Renameuser' );
+wfLoadExtension( 'ReplaceText' );
+wfLoadExtension( 'TemplateData' );
+wfLoadExtension( 'TemplateStyles' );
+wfLoadExtension( 'TextExtracts' );
+wfLoadExtension( 'TitleBlacklist' );
+wfLoadExtension( 'MobileFrontend' );
+
+
 # START CONFIRMEDIT
 wfLoadExtensions([ 'ConfirmEdit', 'ConfirmEdit/Turnstile' ]);
 $wgCaptchaClass = MediaWiki\Extension\ConfirmEdit\Turnstile\Turnstile::class;
