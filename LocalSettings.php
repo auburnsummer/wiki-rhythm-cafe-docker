@@ -200,7 +200,7 @@ wfLoadExtension( 'Scribunto' );
 wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'SyntaxHighlight_GeSHi' );
 wfLoadExtension( 'CodeMirror' );
-$wgScribuntoDefaultEngine = 'luasandbox';
+$wgScribuntoDefaultEngine = 'luastandalone';
 # END SCRIBUNTO
 
 wfLoadExtension( 'TabberNeue' );
