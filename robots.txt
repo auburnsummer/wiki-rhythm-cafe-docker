@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /index.php?
+Disallow: /Special:
+Disallow: /page/Special:
+Crawl-delay: 60
