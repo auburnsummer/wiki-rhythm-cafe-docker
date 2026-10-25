@@ -47,6 +47,7 @@ $wgResourceBasePath = $wgScriptPath;
 ## The URL paths to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
 $wgLogos = [ 'icon' => "$wgResourceBasePath/resources/assets/rdlogo.svg" ];
+$wgFavicon = "$wgResourceBasePath/resources/assets/favicon.svg";
 
 ## UPO means: this is also a user preference option
 
