@@ -235,3 +235,5 @@ $wgGroupPermissions['user']['createpage'] = true;
 # END PERMISSIONS
 
 $wgDebugLogFile = requireEnv("MW_DEBUG_LOG_FILE");
+
+$wgRequestTimeLimit = 300;
