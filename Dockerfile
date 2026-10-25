@@ -16,6 +16,7 @@ RUN --mount=type=bind,from=ghcr.io/php/pie:bin,source=/pie,target=/usr/local/bin
 
 COPY logo.svg /var/www/html/resources/assets/rdlogo.svg
 COPY LocalSettings.php /var/www/html/LocalSettings.php
+COPY robots.txt /var/www/html/robots.txt
 
 RUN git clone --depth 1 --branch REL1_43 \
       https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror \
